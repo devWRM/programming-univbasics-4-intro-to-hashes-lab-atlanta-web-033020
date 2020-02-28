@@ -15,7 +15,7 @@ end
 
 def id_generator
   # return a hash with a key :id assigned to positive integer
-  id_tag = { :id => Math.Random}
+  id_tag = { :id => Math.random()}
 end
 
 def my_hash_creator(key, value)
